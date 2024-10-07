@@ -1,0 +1,59 @@
+/* Details.css */
+
+/* Container for the entire details page */
+.details-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  /* Styling for the image container */
+  .image-container {
+    max-width: 600px;
+    max-height: 400px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for the image */
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect on image */
+  .image-container img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Container for the image details */
+  .image-details {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+  }
+  
+  /* Styling for the image title/tags */
+  .image-details p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Specific styling for the user, likes, and views */
+  .image-details p span {
+    font-weight: bold;
+    color: #555;
+  }
+ 
